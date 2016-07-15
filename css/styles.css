@@ -1,0 +1,105 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster|Lato:300|Raleway|Satisfy';
+
+.logo {
+  width:90px;
+}
+.logo-text {
+  font-family:Satisfy, cursive;
+  font-size:38px;
+  font-weight:200;
+  color:#FF827B;
+}
+.nav {
+  font-size:20px;
+  color:#61AEE6;
+}
+.nav-tabs {
+  padding-top:30px;
+  border:none;
+}
+#active {
+  border:none;
+}
+
+/*======= HERO =======*/
+
+.jumbotron, .jumbo-container {
+  padding:0px !important;
+  background-color:transparent;
+}
+.hero-img {
+  background:url(../img/hero.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  width:100vw;
+  height:60vh;
+}
+.hero-text {
+  text-transform:uppercase;
+  color:#FFF;
+  text-align:center;
+  font-size:32px !important;
+  font-family:Lato, sans-serif;
+  font-weight:300;
+  padding-top:1.8%;
+}
+
+/*======= PRODUCTS =======*/
+
+.featured-text {
+  text-transform:uppercase;
+  font-weight:600;
+}
+.thumbnail {
+  background-color:#EDF1F4;
+  padding:12px 12px 4px 12px;
+  margin-bottom:0;
+}
+.thumbnail .caption {
+  padding-bottom:0;
+}
+
+/*======= SERVICES =======*/
+
+.adopt-text {
+  text-align:center;
+  line-height:2em;
+}
+.adopt-text a {
+  text-transform:uppercase;
+}
+
+/*======= FOOTER =======*/
+
+.footer {
+  background-color:#231F20;
+  min-height:30px;
+  margin-top:50px;
+  color:#BFC0C1;
+}
+.footer a {
+  color:#BFC0C1;
+}
+.footer-logo {
+  width:110px;
+}
+.footer-col {
+  border-right:1px solid #333;
+}
+.footer-col address {
+  padding-left:20px;
+}
+.col-md-3 address:hover, .col-md-3 address a:hover {
+  color:#FF827B;
+}
+.inner-footer {
+  padding-top:25px;
+}
+.socialmedia {
+  margin:0;
+}
+.copy {
+  color:#4C4C4C;
+  margin-bottom:20px;
+}
